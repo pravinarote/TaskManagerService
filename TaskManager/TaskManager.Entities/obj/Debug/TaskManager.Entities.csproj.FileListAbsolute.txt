@@ -12,3 +12,17 @@ C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\bin\Debug\System.Web.Http.Cor
 C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\obj\Debug\TaskManager.Entities.csprojResolveAssemblyReference.cache
 C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\obj\Debug\TaskManager.Entities.dll
 C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\obj\Debug\TaskManager.Entities.pdb
+C:\Users\Admin\Desktop\WORKING\TaskManagerService\TaskManager\TaskManager.Entities\bin\Debug\TaskManager.Entities.dll
+C:\Users\Admin\Desktop\WORKING\TaskManagerService\TaskManager\TaskManager.Entities\bin\Debug\TaskManager.Entities.pdb
+C:\Users\Admin\Desktop\WORKING\TaskManagerService\TaskManager\TaskManager.Entities\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\WORKING\TaskManagerService\TaskManager\TaskManager.Entities\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\WORKING\TaskManagerService\TaskManager\TaskManager.Entities\bin\Debug\System.Web.Cors.dll
+C:\Users\Admin\Desktop\WORKING\TaskManagerService\TaskManager\TaskManager.Entities\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\Admin\Desktop\WORKING\TaskManagerService\TaskManager\TaskManager.Entities\bin\Debug\System.Web.Http.dll
+C:\Users\Admin\Desktop\WORKING\TaskManagerService\TaskManager\TaskManager.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\WORKING\TaskManagerService\TaskManager\TaskManager.Entities\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\WORKING\TaskManagerService\TaskManager\TaskManager.Entities\bin\Debug\System.Web.Http.xml
+C:\Users\Admin\Desktop\WORKING\TaskManagerService\TaskManager\TaskManager.Entities\bin\Debug\System.Web.Http.Cors.xml
+C:\Users\Admin\Desktop\WORKING\TaskManagerService\TaskManager\TaskManager.Entities\obj\Debug\TaskManager.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\WORKING\TaskManagerService\TaskManager\TaskManager.Entities\obj\Debug\TaskManager.Entities.dll
+C:\Users\Admin\Desktop\WORKING\TaskManagerService\TaskManager\TaskManager.Entities\obj\Debug\TaskManager.Entities.pdb
