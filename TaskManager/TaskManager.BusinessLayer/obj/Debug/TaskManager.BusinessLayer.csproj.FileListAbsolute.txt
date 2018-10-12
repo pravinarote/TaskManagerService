@@ -9,3 +9,14 @@ C:\FSD\ASSIGNMENT\TaskManager\TaskManager.BusinessLayer\bin\Debug\EntityFramewor
 C:\FSD\ASSIGNMENT\TaskManager\TaskManager.BusinessLayer\obj\Debug\TaskManager.BusinessLayer.csprojResolveAssemblyReference.cache
 C:\FSD\ASSIGNMENT\TaskManager\TaskManager.BusinessLayer\obj\Debug\TaskManager.BusinessLayer.dll
 C:\FSD\ASSIGNMENT\TaskManager\TaskManager.BusinessLayer\obj\Debug\TaskManager.BusinessLayer.pdb
+C:\FSD\WORKING\TaskManager\TaskManager.BusinessLayer\bin\Debug\TaskManager.BusinessLayer.dll
+C:\FSD\WORKING\TaskManager\TaskManager.BusinessLayer\bin\Debug\TaskManager.BusinessLayer.pdb
+C:\FSD\WORKING\TaskManager\TaskManager.BusinessLayer\bin\Debug\TaskManager.DataLayer.dll
+C:\FSD\WORKING\TaskManager\TaskManager.BusinessLayer\bin\Debug\TaskManager.Entities.dll
+C:\FSD\WORKING\TaskManager\TaskManager.BusinessLayer\bin\Debug\EntityFramework.dll
+C:\FSD\WORKING\TaskManager\TaskManager.BusinessLayer\bin\Debug\TaskManager.DataLayer.pdb
+C:\FSD\WORKING\TaskManager\TaskManager.BusinessLayer\bin\Debug\TaskManager.Entities.pdb
+C:\FSD\WORKING\TaskManager\TaskManager.BusinessLayer\bin\Debug\EntityFramework.xml
+C:\FSD\WORKING\TaskManager\TaskManager.BusinessLayer\obj\Debug\TaskManager.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\FSD\WORKING\TaskManager\TaskManager.BusinessLayer\obj\Debug\TaskManager.BusinessLayer.dll
+C:\FSD\WORKING\TaskManager\TaskManager.BusinessLayer\obj\Debug\TaskManager.BusinessLayer.pdb

@@ -10,3 +10,15 @@ C:\FSD\ASSIGNMENT\TaskManager\TaskManager.DataLayer\bin\Debug\EntityFramework.Sq
 C:\FSD\ASSIGNMENT\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.csprojResolveAssemblyReference.cache
 C:\FSD\ASSIGNMENT\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.dll
 C:\FSD\ASSIGNMENT\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.pdb
+C:\FSD\WORKING\TaskManager\TaskManager.DataLayer\bin\Debug\TaskManager.DataLayer.dll.config
+C:\FSD\WORKING\TaskManager\TaskManager.DataLayer\bin\Debug\TaskManager.DataLayer.dll
+C:\FSD\WORKING\TaskManager\TaskManager.DataLayer\bin\Debug\TaskManager.DataLayer.pdb
+C:\FSD\WORKING\TaskManager\TaskManager.DataLayer\bin\Debug\EntityFramework.dll
+C:\FSD\WORKING\TaskManager\TaskManager.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\FSD\WORKING\TaskManager\TaskManager.DataLayer\bin\Debug\TaskManager.Entities.dll
+C:\FSD\WORKING\TaskManager\TaskManager.DataLayer\bin\Debug\TaskManager.Entities.pdb
+C:\FSD\WORKING\TaskManager\TaskManager.DataLayer\bin\Debug\EntityFramework.xml
+C:\FSD\WORKING\TaskManager\TaskManager.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\FSD\WORKING\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.csprojResolveAssemblyReference.cache
+C:\FSD\WORKING\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.dll
+C:\FSD\WORKING\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.pdb

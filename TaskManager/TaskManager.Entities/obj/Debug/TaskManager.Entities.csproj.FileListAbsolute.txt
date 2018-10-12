@@ -12,3 +12,17 @@ C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\bin\Debug\System.Web.Http.Cor
 C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\obj\Debug\TaskManager.Entities.csprojResolveAssemblyReference.cache
 C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\obj\Debug\TaskManager.Entities.dll
 C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\obj\Debug\TaskManager.Entities.pdb
+C:\FSD\WORKING\TaskManager\TaskManager.Entities\bin\Debug\TaskManager.Entities.dll
+C:\FSD\WORKING\TaskManager\TaskManager.Entities\bin\Debug\TaskManager.Entities.pdb
+C:\FSD\WORKING\TaskManager\TaskManager.Entities\bin\Debug\Newtonsoft.Json.dll
+C:\FSD\WORKING\TaskManager\TaskManager.Entities\bin\Debug\System.Net.Http.Formatting.dll
+C:\FSD\WORKING\TaskManager\TaskManager.Entities\bin\Debug\System.Web.Cors.dll
+C:\FSD\WORKING\TaskManager\TaskManager.Entities\bin\Debug\System.Web.Http.Cors.dll
+C:\FSD\WORKING\TaskManager\TaskManager.Entities\bin\Debug\System.Web.Http.dll
+C:\FSD\WORKING\TaskManager\TaskManager.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\FSD\WORKING\TaskManager\TaskManager.Entities\bin\Debug\System.Net.Http.Formatting.xml
+C:\FSD\WORKING\TaskManager\TaskManager.Entities\bin\Debug\System.Web.Http.xml
+C:\FSD\WORKING\TaskManager\TaskManager.Entities\bin\Debug\System.Web.Http.Cors.xml
+C:\FSD\WORKING\TaskManager\TaskManager.Entities\obj\Debug\TaskManager.Entities.csprojResolveAssemblyReference.cache
+C:\FSD\WORKING\TaskManager\TaskManager.Entities\obj\Debug\TaskManager.Entities.dll
+C:\FSD\WORKING\TaskManager\TaskManager.Entities\obj\Debug\TaskManager.Entities.pdb
