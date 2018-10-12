@@ -1,0 +1,14 @@
+C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\bin\Debug\TaskManager.Entities.dll
+C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\bin\Debug\TaskManager.Entities.pdb
+C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\bin\Debug\Newtonsoft.Json.dll
+C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\bin\Debug\System.Net.Http.Formatting.dll
+C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\bin\Debug\System.Web.Cors.dll
+C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\bin\Debug\System.Web.Http.Cors.dll
+C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\bin\Debug\System.Web.Http.dll
+C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\bin\Debug\System.Net.Http.Formatting.xml
+C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\bin\Debug\System.Web.Http.xml
+C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\bin\Debug\System.Web.Http.Cors.xml
+C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\obj\Debug\TaskManager.Entities.csprojResolveAssemblyReference.cache
+C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\obj\Debug\TaskManager.Entities.dll
+C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Entities\obj\Debug\TaskManager.Entities.pdb

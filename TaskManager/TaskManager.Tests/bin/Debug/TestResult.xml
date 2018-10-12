@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Tests\bin\Debug\TaskManager.Tests.dll" total="6" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-10-10" time="12:13:03">
+  <environment nunit-version="2.6.3.13283" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Users\pravin.arote" machine-name="DPUN-PC0U3FBE" user="pravin.arote" user-domain="TRAFGLOBAL" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Tests\bin\Debug\TaskManager.Tests.dll" executed="True" result="Success" success="True" time="2.507" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="TaskManager" executed="True" result="Success" success="True" time="2.494" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="2.494" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="TaskManagerControllerTests" executed="True" result="Success" success="True" time="2.493" asserts="0">
+                <results>
+                  <test-case name="TaskManager.Tests.TaskManagerControllerTests.When_CreateNewTask_Then_VerifyTaskInserted" executed="True" result="Success" success="True" time="0.036" asserts="0" />
+                  <test-case name="TaskManager.Tests.TaskManagerControllerTests.When_DeleteTask_Then_VerifyTaskDeleted" executed="True" result="Success" success="True" time="0.002" asserts="0" />
+                  <test-case name="TaskManager.Tests.TaskManagerControllerTests.When_EndTask_Then_VerifyTaskEnded" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                  <test-case name="TaskManager.Tests.TaskManagerControllerTests.When_GetAllTasks_Then_ShouldReturnAllTasks" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                  <test-case name="TaskManager.Tests.TaskManagerControllerTests.When_GetTaskById_Then_VerifyTaskDetails" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                  <test-case name="TaskManager.Tests.TaskManagerControllerTests.When_UpdateTask_Then_VerifyTaskUpdated" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

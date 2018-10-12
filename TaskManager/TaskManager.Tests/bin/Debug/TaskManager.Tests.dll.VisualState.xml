@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ShowCheckBoxes="false">
+  <TopNode>[0-1020]C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Tests\bin\Debug\TaskManager.Tests.dll</TopNode>
+  <SelectedNode>[0-1000]TaskManager.Tests.TaskManagerControllerTests</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1020]C:\FSD\ASSIGNMENT\TaskManager\TaskManager.Tests\bin\Debug\TaskManager.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1021]TaskManager" Expanded="true" />
+    <Node UniqueName="[0-1022]TaskManager.Tests" Expanded="true" />
+    <Node UniqueName="[0-1000]TaskManager.Tests.TaskManagerControllerTests" Expanded="true" />
+    <Node UniqueName="[0-1007]TaskManager.Tests.TaskManagerRepositoryTests" Expanded="true" />
+    <Node UniqueName="[0-1013]TaskManager.Tests.TaskManagerServiceTests" Expanded="true" />
+  </Nodes>
+</VisualState>
