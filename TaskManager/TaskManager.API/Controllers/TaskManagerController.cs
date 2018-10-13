@@ -63,7 +63,6 @@ namespace TaskManager.API.Controllers
         /// <param name="taskEntity"></param>
         /// <returns></returns>
         [Route("TaskManager/UpdateTask")]
-        [EnableCors("*", "*", "*")]
         public IHttpActionResult Put([FromBody]TaskEntity taskEntity)
         {
             if (taskEntity.TaskId > 0)
@@ -79,7 +78,6 @@ namespace TaskManager.API.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [Route("TaskManager/DeleteTask/{id}")]
-        [EnableCors("*", "*", "*")]
         public IHttpActionResult Delete(int id)
         {
             return Ok(_taskService.DeleteTask(id));
@@ -91,7 +89,6 @@ namespace TaskManager.API.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [Route("TaskManager/EndTask/{id}")]
-        [EnableCors("*","*","*")]
         public IHttpActionResult EndTask(int id)
         {
             return Ok(_taskService.EndTask(id));

@@ -4,6 +4,8 @@
 
 /TaskManager/TaskManager.API/obj/Release
 /TaskManager/TaskManager.API/obj/Debug
+/TaskManager/TaskManager.API/bin/Release
+/TaskManager/TaskManager.API/bin/Debug
 /TaskManager/TaskManager.API/Properties/PublishProfiles
 /TaskManager/TaskManager.BusinessLayer/bin/Release
 /TaskManager/TaskManager.BusinessLayer/bin/Debug
@@ -19,5 +21,9 @@
 /TaskManager/TaskManager.Entities/obj/Debug
 /TaskManager/TaskManager.PerformanceTests/obj/Release
 /TaskManager/TaskManager.PerformanceTests/obj/Debug
+/TaskManager/TaskManager.PerformanceTests/bin/Release
+/TaskManager/TaskManager.PerformanceTests/bin/Debug
 /TaskManager/TaskManager.Tests/obj/Release
 /TaskManager/TaskManager.Tests/obj/Debug
+/TaskManager/TaskManager.Tests/bin/Release
+/TaskManager/TaskManager.Tests/bin/Debug
