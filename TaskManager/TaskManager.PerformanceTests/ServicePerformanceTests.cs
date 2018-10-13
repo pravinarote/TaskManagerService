@@ -27,10 +27,10 @@ namespace TaskManager.PerformanceTests
         }
 
 
-        [CounterThroughputAssertion("TaskServiceCounter", MustBe.GreaterThan, 600000.0d)]
+        [CounterThroughputAssertion("TaskServiceCounter", MustBe.GreaterThan, 10000.0d)]
         [PerfBenchmark(NumberOfIterations = 1, RunMode = RunMode.Throughput, TestMode = TestMode.Test, SkipWarmups = true)]
         [ElapsedTimeAssertion(MaxTimeMilliseconds = 5000)]
-        [CounterTotalAssertion("TaskServiceCounter", MustBe.GreaterThan, 600000.0d)]
+        [CounterTotalAssertion("TaskServiceCounter", MustBe.GreaterThan, 10000.0d)]
         [CounterMeasurement("TaskServiceCounter")]
         [GcMeasurement(GcMetric.TotalCollections, GcGeneration.AllGc)]
         public void Benchmark_Performance_GetAllTasks()
@@ -39,10 +39,10 @@ namespace TaskManager.PerformanceTests
             _counter.Increment();
         }
 
-        [CounterThroughputAssertion("TaskServiceCounter", MustBe.GreaterThan, 400000.0d)]
+        [CounterThroughputAssertion("TaskServiceCounter", MustBe.GreaterThan, 50000.0d)]
         [PerfBenchmark(NumberOfIterations = 10, RunMode = RunMode.Throughput, TestMode = TestMode.Test, SkipWarmups = true)]
         [ElapsedTimeAssertion(MaxTimeMilliseconds = 5000)]
-        [CounterTotalAssertion("TaskServiceCounter", MustBe.GreaterThan, 400000.0d)]
+        [CounterTotalAssertion("TaskServiceCounter", MustBe.GreaterThan, 50000.0d)]
         [CounterMeasurement("TaskServiceCounter")]
         [GcMeasurement(GcMetric.TotalCollections, GcGeneration.AllGc)]
         public void Benchmark_Performance_GetTaskById()
@@ -51,10 +51,10 @@ namespace TaskManager.PerformanceTests
             _counter.Increment();
         }
 
-        [CounterThroughputAssertion("TaskServiceCounter", MustBe.GreaterThan, 400000.0d)]
+        [CounterThroughputAssertion("TaskServiceCounter", MustBe.GreaterThan, 100000.0d)]
         [PerfBenchmark(NumberOfIterations = 3, RunMode = RunMode.Throughput, TestMode = TestMode.Test, SkipWarmups = true)]
         [ElapsedTimeAssertion(MaxTimeMilliseconds = 5000)]
-        [CounterTotalAssertion("TaskServiceCounter", MustBe.GreaterThan, 400000.0d)]
+        [CounterTotalAssertion("TaskServiceCounter", MustBe.GreaterThan, 100000.0d)]
         [CounterMeasurement("TaskServiceCounter")]
         [GcMeasurement(GcMetric.TotalCollections, GcGeneration.AllGc)]
         public void Benchmark_Performance_CreateNewTask()
@@ -74,10 +74,10 @@ namespace TaskManager.PerformanceTests
             var result = controller.Put(taskToBeUpdated);
         }
 
-        [CounterThroughputAssertion("TaskServiceCounter", MustBe.GreaterThan, 800000.0d)]
+        [CounterThroughputAssertion("TaskServiceCounter", MustBe.GreaterThan, 100000.0d)]
         [PerfBenchmark(NumberOfIterations = 1, RunMode = RunMode.Throughput, TestMode = TestMode.Test, SkipWarmups = true)]
         [ElapsedTimeAssertion(MaxTimeMilliseconds = 5000)]
-        [CounterTotalAssertion("TaskServiceCounter", MustBe.GreaterThan, 700000.0d)]
+        [CounterTotalAssertion("TaskServiceCounter", MustBe.GreaterThan, 100000.0d)]
         [CounterMeasurement("TaskServiceCounter")]
         [GcMeasurement(GcMetric.TotalCollections, GcGeneration.AllGc)]
         public void Benchmark_Performance_DeleteTask()
@@ -86,10 +86,10 @@ namespace TaskManager.PerformanceTests
             _counter.Increment();
         }
 
-        [CounterThroughputAssertion("TaskServiceCounter", MustBe.GreaterThan, 800000.0d)]
+        [CounterThroughputAssertion("TaskServiceCounter", MustBe.GreaterThan, 50000.0d)]
         [PerfBenchmark(NumberOfIterations = 10, RunMode = RunMode.Throughput, TestMode = TestMode.Test, SkipWarmups = true)]
         [ElapsedTimeAssertion(MaxTimeMilliseconds = 5000)]
-        [CounterTotalAssertion("TaskServiceCounter", MustBe.GreaterThan, 700000.0d)]
+        [CounterTotalAssertion("TaskServiceCounter", MustBe.GreaterThan, 50000.0d)]
         [CounterMeasurement("TaskServiceCounter")]
         [GcMeasurement(GcMetric.TotalCollections, GcGeneration.AllGc)]
         public void Benchmark_Performance_EndTask()
