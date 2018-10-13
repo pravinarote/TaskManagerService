@@ -3,3 +3,21 @@
 ################################################################################
 
 /TaskManager/TaskManager.API/obj/Release
+/TaskManager/TaskManager.API/obj/Debug
+/TaskManager/TaskManager.API/Properties/PublishProfiles
+/TaskManager/TaskManager.BusinessLayer/bin/Release
+/TaskManager/TaskManager.BusinessLayer/bin/Debug
+/TaskManager/TaskManager.BusinessLayer/obj/Release
+/TaskManager/TaskManager.BusinessLayer/obj/Debug
+/TaskManager/TaskManager.DataLayer/bin/Release
+/TaskManager/TaskManager.DataLayer/bin/Debug
+/TaskManager/TaskManager.DataLayer/obj/Release
+/TaskManager/TaskManager.DataLayer/obj/Debug
+/TaskManager/TaskManager.Entities/bin/Release
+/TaskManager/TaskManager.Entities/bin/Debug
+/TaskManager/TaskManager.Entities/obj/Release
+/TaskManager/TaskManager.Entities/obj/Debug
+/TaskManager/TaskManager.PerformanceTests/obj/Release
+/TaskManager/TaskManager.PerformanceTests/obj/Debug
+/TaskManager/TaskManager.Tests/obj/Release
+/TaskManager/TaskManager.Tests/obj/Debug

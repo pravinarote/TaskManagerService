@@ -63,6 +63,7 @@ namespace TaskManager.API.Controllers
         /// <param name="taskEntity"></param>
         /// <returns></returns>
         [Route("TaskManager/UpdateTask")]
+        [EnableCors("*", "*", "*")]
         public IHttpActionResult Put([FromBody]TaskEntity taskEntity)
         {
             if (taskEntity.TaskId > 0)
