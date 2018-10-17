@@ -64,39 +64,39 @@ namespace TaskManager.PerformanceTests
             _counter.Increment();
         }
 
-        [PerfBenchmark(NumberOfIterations = 1, RunMode = RunMode.Throughput, TestMode = TestMode.Test, SkipWarmups = true)]
-        [ElapsedTimeAssertion(MaxTimeMilliseconds = 5000)]
-        [CounterMeasurement("TaskServiceCounter")]
-        [GcMeasurement(GcMetric.TotalCollections, GcGeneration.AllGc)]
-        public void Benchmark_Performance_UpdateTask()
-        {
-            var taskToBeUpdated = TaskEntityList.FirstOrDefault(x => x.TaskId == 2);
-            var result = controller.Put(taskToBeUpdated);
-        }
+        //[PerfBenchmark(NumberOfIterations = 1, RunMode = RunMode.Throughput, TestMode = TestMode.Test, SkipWarmups = true)]
+        //[ElapsedTimeAssertion(MaxTimeMilliseconds = 5000)]
+        //[CounterMeasurement("TaskServiceCounter")]
+        //[GcMeasurement(GcMetric.TotalCollections, GcGeneration.AllGc)]
+        //public void Benchmark_Performance_UpdateTask()
+        //{
+        //    var taskToBeUpdated = TaskEntityList.FirstOrDefault(x => x.TaskId == 2);
+        //    var result = controller.Put(taskToBeUpdated);
+        //}
 
-        [CounterThroughputAssertion("TaskServiceCounter", MustBe.GreaterThan, 100000.0d)]
-        [PerfBenchmark(NumberOfIterations = 1, RunMode = RunMode.Throughput, TestMode = TestMode.Test, SkipWarmups = true)]
-        [ElapsedTimeAssertion(MaxTimeMilliseconds = 5000)]
-        [CounterTotalAssertion("TaskServiceCounter", MustBe.GreaterThan, 100000.0d)]
-        [CounterMeasurement("TaskServiceCounter")]
-        [GcMeasurement(GcMetric.TotalCollections, GcGeneration.AllGc)]
-        public void Benchmark_Performance_DeleteTask()
-        {
-            var result = controller.Delete(2);
-            _counter.Increment();
-        }
+        //[CounterThroughputAssertion("TaskServiceCounter", MustBe.GreaterThan, 100000.0d)]
+        //[PerfBenchmark(NumberOfIterations = 1, RunMode = RunMode.Throughput, TestMode = TestMode.Test, SkipWarmups = true)]
+        //[ElapsedTimeAssertion(MaxTimeMilliseconds = 5000)]
+        //[CounterTotalAssertion("TaskServiceCounter", MustBe.GreaterThan, 100000.0d)]
+        //[CounterMeasurement("TaskServiceCounter")]
+        //[GcMeasurement(GcMetric.TotalCollections, GcGeneration.AllGc)]
+        //public void Benchmark_Performance_DeleteTask()
+        //{
+        //    var result = controller.Delete(2);
+        //    _counter.Increment();
+        //}
 
-        [CounterThroughputAssertion("TaskServiceCounter", MustBe.GreaterThan, 50000.0d)]
-        [PerfBenchmark(NumberOfIterations = 10, RunMode = RunMode.Throughput, TestMode = TestMode.Test, SkipWarmups = true)]
-        [ElapsedTimeAssertion(MaxTimeMilliseconds = 5000)]
-        [CounterTotalAssertion("TaskServiceCounter", MustBe.GreaterThan, 50000.0d)]
-        [CounterMeasurement("TaskServiceCounter")]
-        [GcMeasurement(GcMetric.TotalCollections, GcGeneration.AllGc)]
-        public void Benchmark_Performance_EndTask()
-        {
-            var result = controller.EndTask(2);
-            _counter.Increment();
-        }
+        //[CounterThroughputAssertion("TaskServiceCounter", MustBe.GreaterThan, 50000.0d)]
+        //[PerfBenchmark(NumberOfIterations = 10, RunMode = RunMode.Throughput, TestMode = TestMode.Test, SkipWarmups = true)]
+        //[ElapsedTimeAssertion(MaxTimeMilliseconds = 5000)]
+        //[CounterTotalAssertion("TaskServiceCounter", MustBe.GreaterThan, 50000.0d)]
+        //[CounterMeasurement("TaskServiceCounter")]
+        //[GcMeasurement(GcMetric.TotalCollections, GcGeneration.AllGc)]
+        //public void Benchmark_Performance_EndTask()
+        //{
+        //    var result = controller.EndTask(2);
+        //    _counter.Increment();
+        //}
 
         [PerfCleanup]
         public void Cleanup()
