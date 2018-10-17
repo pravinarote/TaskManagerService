@@ -40,6 +40,16 @@ namespace TaskManager.Tests
         }
 
         [Test]
+        public void When_UpdateTask_With_InvalidTaskId_Then_VerifyTaskDetails()
+        {
+            var taskToBeUpdated = controller.Get(2) as OkNegotiatedContentResult<TaskEntity>;
+            taskToBeUpdated.Content.TaskId = 0;
+            var result = controller.Put(taskToBeUpdated.Content) as OkNegotiatedContentResult<bool>;
+            Assert.NotNull(result);
+            Assert.False(result.Content);
+        }
+
+        [Test]
         public void When_CreateNewTask_Then_VerifyTaskInserted()
         {
             var taskToBeCreated = GetNewTaskEntity();

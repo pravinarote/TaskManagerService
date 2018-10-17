@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Summary numSequencePoints="45" visitedSequencePoints="35" numBranchPoints="26" visitedBranchPoints="19" sequenceCoverage="77.78" branchCoverage="73.08" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="2" numClasses="2" visitedMethods="17" numMethods="24" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="95-6F-A7-D9-CA-57-AB-DE-E6-29-67-E1-17-75-0C-A6-6A-E1-81-1E">
+      <ModulePath>C:\windows\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2016-07-14T09:07:18Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F9-CA-B6-79-63-CB-31-8A-0D-DC-C3-D0-43-F8-28-C3-F0-95-F9-E7">
+      <ModulePath>C:\Program Files (x86)\NUnit-2.6.3\bin\nunit-console.exe</ModulePath>
+      <ModuleTime>2014-07-21T11:34:12Z</ModuleTime>
+      <ModuleName>nunit-console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2A-C4-E5-DE-F3-EE-AD-84-E1-65-84-CC-15-90-76-96-E7-01-44-4E">
+      <ModulePath>C:\Program Files (x86)\NUnit-2.6.3\bin\lib\nunit-console-runner.dll</ModulePath>
+      <ModuleTime>2014-07-21T11:34:14Z</ModuleTime>
+      <ModuleName>nunit-console-runner</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="33-E1-CA-24-52-5A-B7-C7-C4-AF-91-2C-A9-4A-C0-37-67-0D-5B-FE">
+      <ModulePath>C:\Program Files (x86)\NUnit-2.6.3\bin\lib\nunit.core.dll</ModulePath>
+      <ModuleTime>2014-07-21T11:34:14Z</ModuleTime>
+      <ModuleName>nunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="74-74-F6-87-59-E1-5F-4F-5F-5E-6E-82-50-E8-E2-46-D4-86-15-76">
+      <ModulePath>C:\Program Files (x86)\NUnit-2.6.3\bin\lib\nunit.util.dll</ModulePath>
+      <ModuleTime>2014-07-21T11:34:14Z</ModuleTime>
+      <ModuleName>nunit.util</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D3-A4-4D-85-55-F7-CE-EF-A5-90-AA-EF-58-E0-9F-B6-CC-27-99-53">
+      <ModulePath>C:\Program Files (x86)\NUnit-2.6.3\bin\lib\nunit.core.interfaces.dll</ModulePath>
+      <ModuleTime>2014-07-21T11:34:14Z</ModuleTime>
+      <ModuleName>nunit.core.interfaces</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="58-B9-CA-42-36-B5-7C-2F-28-04-EF-71-75-4D-D7-DB-0B-9E-9A-C3">
+      <ModulePath>C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2016-07-14T09:13:42Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E0-0D-0B-92-51-0B-55-4D-34-02-F9-80-55-BC-36-8F-16-FB-43-A9">
+      <ModulePath>C:\windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2016-07-14T09:13:42Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BC-5B-5D-6A-58-44-92-0A-2E-36-E3-6E-2C-9B-98-00-AD-15-22-E5">
+      <ModulePath>C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2016-07-14T09:13:42Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="58-7E-0C-8A-5F-09-F6-0F-15-50-1C-10-9F-E5-08-3A-E8-0A-D6-1B">
+      <ModulePath>C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2016-07-14T09:13:42Z</ModuleTime>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="33-E1-CA-24-52-5A-B7-C7-C4-AF-91-2C-A9-4A-C0-37-67-0D-5B-FE">
+      <ModulePath>C:\Program Files (x86)\NUnit-2.6.3\bin\lib\nunit.core.dll</ModulePath>
+      <ModuleTime>2014-07-21T11:34:14Z</ModuleTime>
+      <ModuleName>nunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E0-0D-0B-92-51-0B-55-4D-34-02-F9-80-55-BC-36-8F-16-FB-43-A9">
+      <ModulePath>C:\windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2016-07-14T09:13:42Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BC-5B-5D-6A-58-44-92-0A-2E-36-E3-6E-2C-9B-98-00-AD-15-22-E5">
+      <ModulePath>C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2016-07-14T09:13:42Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B6-96-0F-77-90-5D-5D-2F-9A-F2-9F-C4-E5-75-AD-9C-ED-57-F3-17">
+      <ModulePath>C:\Program Files (x86)\NUnit-2.6.3\bin\pnunit.framework.dll</ModulePath>
+      <ModuleTime>2014-07-21T11:34:14Z</ModuleTime>
+      <ModuleName>pnunit.framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BF-1D-D7-35-9F-DE-AD-6C-C5-85-0E-59-71-C4-80-76-13-06-73-54">
+      <ModulePath>C:\Program Files (x86)\NUnit-2.6.3\bin\pnunit-agent.exe</ModulePath>
+      <ModuleTime>2014-07-21T11:34:14Z</ModuleTime>
+      <ModuleName>pnunit-agent</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D3-A4-4D-85-55-F7-CE-EF-A5-90-AA-EF-58-E0-9F-B6-CC-27-99-53">
+      <ModulePath>C:\Program Files (x86)\NUnit-2.6.3\bin\lib\nunit.core.interfaces.dll</ModulePath>
+      <ModuleTime>2014-07-21T11:34:14Z</ModuleTime>
+      <ModuleName>nunit.core.interfaces</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BD-33-1B-67-E0-2B-91-B7-88-72-44-C7-B3-02-77-3D-2E-D5-A1-79">
+      <ModulePath>C:\FSD\WORKING\TaskManager\TaskManager.Tests\bin\Debug\TaskManager.Tests.dll</ModulePath>
+      <ModuleTime>2018-10-17T12:11:29.9616738Z</ModuleTime>
+      <ModuleName>TaskManager.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EE-92-34-AE-A6-A6-A8-2E-8A-34-A1-E4-20-3D-2A-23-C5-9D-D8-D2">
+      <ModulePath>C:\FSD\WORKING\TaskManager\TaskManager.Tests\bin\Debug\nunit.framework.dll</ModulePath>
+      <ModuleTime>2018-10-06T11:22:56Z</ModuleTime>
+      <ModuleName>nunit.framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="58-B9-CA-42-36-B5-7C-2F-28-04-EF-71-75-4D-D7-DB-0B-9E-9A-C3">
+      <ModulePath>C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2016-07-14T09:13:42Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="CE-BB-DB-BD-C7-D2-BF-D8-62-64-08-83-48-B2-F0-1C-15-EE-27-3C">
+      <Summary numSequencePoints="16" visitedSequencePoints="10" numBranchPoints="16" visitedBranchPoints="10" sequenceCoverage="62.5" branchCoverage="62.5" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="10" numMethods="16" />
+      <ModulePath>C:\FSD\WORKING\TaskManager\TaskManager.Tests\bin\Debug\TaskManager.BusinessLayer.dll</ModulePath>
+      <ModuleTime>2018-10-17T07:14:21.4260738Z</ModuleTime>
+      <ModuleName>TaskManager.BusinessLayer</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\FSD\WORKING\TaskManager\TaskManager.BusinessLayer\BusinessEntities\TaskEntity.cs" />
+      </Files>
+      <Classes>
+        <Class skippedDueTo="Filter">
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.BusinessLayer.TaskService</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.BusinessLayer.Mapper.TaskServiceMapper</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.BusinessLayer.Mapper.TaskServiceMapper/&lt;&gt;c__DisplayClass3_0</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="16" visitedSequencePoints="10" numBranchPoints="16" visitedBranchPoints="10" sequenceCoverage="62.5" branchCoverage="62.5" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="10" numMethods="16" />
+          <FullName>TaskManager.BusinessLayer.BusinessEntities.TaskEntity</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Int32 TaskManager.BusinessLayer.BusinessEntities.TaskEntity::get_TaskId()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="21" uspid="1" ordinal="0" offset="0" sl="7" sc="29" el="7" ec="33" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="21" uspid="1" ordinal="0" offset="0" sl="7" sc="29" el="7" ec="33" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void TaskManager.BusinessLayer.BusinessEntities.TaskEntity::set_TaskId(System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="9" uspid="2" ordinal="0" offset="0" sl="7" sc="34" el="7" ec="38" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="9" uspid="2" ordinal="0" offset="0" sl="7" sc="34" el="7" ec="38" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.String TaskManager.BusinessLayer.BusinessEntities.TaskEntity::get_TaskName()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="3" ordinal="0" offset="0" sl="8" sc="34" el="8" ec="38" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="3" ordinal="0" offset="0" sl="8" sc="34" el="8" ec="38" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Void TaskManager.BusinessLayer.BusinessEntities.TaskEntity::set_TaskName(System.String)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="4" ordinal="0" offset="0" sl="8" sc="39" el="8" ec="43" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="8" uspid="4" ordinal="0" offset="0" sl="8" sc="39" el="8" ec="43" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663318</MetadataToken>
+              <Name>System.String TaskManager.BusinessLayer.BusinessEntities.TaskEntity::get_ParentTaskName()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="5" ordinal="0" offset="0" sl="9" sc="40" el="9" ec="44" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="5" ordinal="0" offset="0" sl="9" sc="40" el="9" ec="44" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Void TaskManager.BusinessLayer.BusinessEntities.TaskEntity::set_ParentTaskName(System.String)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="6" ordinal="0" offset="0" sl="9" sc="45" el="9" ec="49" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="6" ordinal="0" offset="0" sl="9" sc="45" el="9" ec="49" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Nullable`1&lt;System.Int32&gt; TaskManager.BusinessLayer.BusinessEntities.TaskEntity::get_ParentTaskId()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="7" ordinal="0" offset="0" sl="10" sc="36" el="10" ec="40" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="7" ordinal="0" offset="0" sl="10" sc="36" el="10" ec="40" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.Void TaskManager.BusinessLayer.BusinessEntities.TaskEntity::set_ParentTaskId(System.Nullable`1&lt;System.Int32&gt;)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="8" ordinal="0" offset="0" sl="10" sc="41" el="10" ec="45" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="8" uspid="8" ordinal="0" offset="0" sl="10" sc="41" el="10" ec="45" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Int32 TaskManager.BusinessLayer.BusinessEntities.TaskEntity::get_Priority()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="9" ordinal="0" offset="0" sl="11" sc="31" el="11" ec="35" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="9" ordinal="0" offset="0" sl="11" sc="31" el="11" ec="35" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663323</MetadataToken>
+              <Name>System.Void TaskManager.BusinessLayer.BusinessEntities.TaskEntity::set_Priority(System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="10" ordinal="0" offset="0" sl="11" sc="36" el="11" ec="40" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="8" uspid="10" ordinal="0" offset="0" sl="11" sc="36" el="11" ec="40" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663324</MetadataToken>
+              <Name>System.DateTime TaskManager.BusinessLayer.BusinessEntities.TaskEntity::get_StartDate()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="11" ordinal="0" offset="0" sl="12" sc="37" el="12" ec="41" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="11" ordinal="0" offset="0" sl="12" sc="37" el="12" ec="41" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.Void TaskManager.BusinessLayer.BusinessEntities.TaskEntity::set_StartDate(System.DateTime)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="12" ordinal="0" offset="0" sl="12" sc="42" el="12" ec="46" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="8" uspid="12" ordinal="0" offset="0" sl="12" sc="42" el="12" ec="46" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.DateTime TaskManager.BusinessLayer.BusinessEntities.TaskEntity::get_EndDate()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="13" ordinal="0" offset="0" sl="13" sc="35" el="13" ec="39" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="13" ordinal="0" offset="0" sl="13" sc="35" el="13" ec="39" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.Void TaskManager.BusinessLayer.BusinessEntities.TaskEntity::set_EndDate(System.DateTime)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="14" ordinal="0" offset="0" sl="13" sc="40" el="13" ec="44" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="8" uspid="14" ordinal="0" offset="0" sl="13" sc="40" el="13" ec="44" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.Boolean TaskManager.BusinessLayer.BusinessEntities.TaskEntity::get_IsTaskEnded()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="15" ordinal="0" offset="0" sl="14" sc="35" el="14" ec="39" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="15" ordinal="0" offset="0" sl="14" sc="35" el="14" ec="39" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.Void TaskManager.BusinessLayer.BusinessEntities.TaskEntity::set_IsTaskEnded(System.Boolean)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="16" ordinal="0" offset="0" sl="14" sc="40" el="14" ec="44" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="16" ordinal="0" offset="0" sl="14" sc="40" el="14" ec="44" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.Void TaskManager.BusinessLayer.BusinessEntities.TaskEntity::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="8" uspid="17" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="1F-C0-41-B8-79-56-71-AF-81-DF-C1-CC-EC-18-F4-63-5D-E9-24-80">
+      <Summary numSequencePoints="29" visitedSequencePoints="25" numBranchPoints="10" visitedBranchPoints="9" sequenceCoverage="86.21" branchCoverage="90" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="7" numMethods="8" />
+      <ModulePath>C:\FSD\WORKING\TaskManager\TaskManager.Tests\bin\Debug\TaskManager.API.dll</ModulePath>
+      <ModuleTime>2018-10-17T07:14:24.9790738Z</ModuleTime>
+      <ModuleName>TaskManager.API</ModuleName>
+      <Files>
+        <File uid="3" fullPath="C:\FSD\WORKING\TaskManager\TaskManager.API\Controllers\TaskManagerController.cs" />
+      </Files>
+      <Classes>
+        <Class skippedDueTo="Filter">
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>&lt;&gt;f__AnonymousType0`3</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>&lt;&gt;f__AnonymousType1`1</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>&lt;&gt;f__AnonymousType2`3</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>&lt;&gt;f__AnonymousType3`5</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>&lt;&gt;f__AnonymousType4`1</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.BundleConfig</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.FilterConfig</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.ApplicationUserManager</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.RouteConfig</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Startup</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.WebApiConfig</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.WebApiApplication</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Results.ChallengeResult</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Providers.ApplicationOAuthProvider</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Providers.ApplicationOAuthProvider/&lt;GrantResourceOwnerCredentials&gt;d__2</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Models.AddExternalLoginBindingModel</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Models.ChangePasswordBindingModel</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Models.RegisterBindingModel</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Models.RegisterExternalBindingModel</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Models.RemoveLoginBindingModel</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Models.SetPasswordBindingModel</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Models.ExternalLoginViewModel</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Models.ManageInfoViewModel</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Models.UserInfoViewModel</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Models.UserLoginInfoViewModel</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Models.ApplicationUser</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Models.ApplicationUser/&lt;GenerateUserIdentityAsync&gt;d__0</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Models.ApplicationDbContext</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Helper.GlobalExceptionHandler</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Helper.TaskExceptionFilter</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Controllers.AccountController</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Controllers.AccountController/ExternalLoginData</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Controllers.AccountController/RandomOAuthStateGenerator</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Controllers.AccountController/&lt;GetManageInfo&gt;d__13</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Controllers.AccountController/&lt;ChangePassword&gt;d__14</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Controllers.AccountController/&lt;SetPassword&gt;d__15</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Controllers.AccountController/&lt;AddExternalLogin&gt;d__16</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Controllers.AccountController/&lt;RemoveLogin&gt;d__17</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Controllers.AccountController/&lt;GetExternalLogin&gt;d__18</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Controllers.AccountController/&lt;Register&gt;d__20</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Controllers.AccountController/&lt;RegisterExternal&gt;d__21</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Controllers.HomeController</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Controllers.HomeController/&lt;&gt;o__0</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="29" visitedSequencePoints="25" numBranchPoints="10" visitedBranchPoints="9" sequenceCoverage="86.21" branchCoverage="90" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="7" numMethods="8" />
+          <FullName>TaskManager.API.Controllers.TaskManagerController</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663448</MetadataToken>
+              <Name>System.Void TaskManager.API.Controllers.TaskManagerController::.ctor()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="18" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="39" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="19" ordinal="1" offset="7" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="20" ordinal="2" offset="8" sl="20" sc="13" el="20" ec="46" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="21" ordinal="3" offset="19" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="18" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="39" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663449</MetadataToken>
+              <Name>System.Void TaskManager.API.Controllers.TaskManagerController::.ctor(TaskManager.BusinessLayer.ITaskService)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="22" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="59" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="23" ordinal="1" offset="7" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="24" ordinal="2" offset="8" sl="25" sc="13" el="25" ec="36" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="25" ordinal="3" offset="15" sl="26" sc="9" el="26" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="22" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="59" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663450</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult TaskManager.API.Controllers.TaskManagerController::Get()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="26" ordinal="0" offset="0" sl="34" sc="9" el="34" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="27" ordinal="1" offset="1" sl="35" sc="13" el="35" ec="51" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="28" ordinal="2" offset="21" sl="36" sc="9" el="36" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="26" ordinal="0" offset="0" sl="34" sc="9" el="34" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663451</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult TaskManager.API.Controllers.TaskManagerController::Get(System.Int32)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="29" ordinal="0" offset="0" sl="45" sc="9" el="45" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" uspid="30" ordinal="1" offset="1" sl="46" sc="13" el="46" ec="53" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" uspid="31" ordinal="2" offset="22" sl="47" sc="9" el="47" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="29" ordinal="0" offset="0" sl="45" sc="9" el="45" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663452</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult TaskManager.API.Controllers.TaskManagerController::Post(TaskManager.BusinessLayer.BusinessEntities.TaskEntity)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="32" ordinal="0" offset="0" sl="56" sc="9" el="56" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="33" ordinal="1" offset="1" sl="57" sc="13" el="57" ec="60" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="34" ordinal="2" offset="22" sl="58" sc="9" el="58" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="32" ordinal="0" offset="0" sl="56" sc="9" el="56" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663453</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult TaskManager.API.Controllers.TaskManagerController::Put(TaskManager.BusinessLayer.BusinessEntities.TaskEntity)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="35" ordinal="0" offset="0" sl="67" sc="9" el="67" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="2" uspid="36" ordinal="1" offset="1" sl="68" sc="13" el="68" ec="39" bec="2" bev="2" fileid="3" />
+                <SequencePoint vc="1" uspid="37" ordinal="2" offset="14" sl="69" sc="13" el="69" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="38" ordinal="3" offset="15" sl="70" sc="17" el="70" ec="64" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="39" ordinal="4" offset="36" sl="72" sc="13" el="72" ec="30" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="2" uspid="40" ordinal="5" offset="46" sl="73" sc="9" el="73" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="41" ordinal="0" offset="12" sl="68" path="0" offsetend="14" fileid="3" />
+                <BranchPoint vc="1" uspid="42" ordinal="1" offset="12" sl="68" path="1" offsetend="36" fileid="3" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="35" ordinal="0" offset="0" sl="67" sc="9" el="67" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663454</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult TaskManager.API.Controllers.TaskManagerController::Delete(System.Int32)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="43" ordinal="0" offset="0" sl="82" sc="9" el="82" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="44" ordinal="1" offset="1" sl="83" sc="13" el="83" ec="52" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="45" ordinal="2" offset="22" sl="84" sc="9" el="84" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="43" ordinal="0" offset="0" sl="82" sc="9" el="82" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663455</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult TaskManager.API.Controllers.TaskManagerController::EndTask(System.Int32)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="46" ordinal="0" offset="0" sl="93" sc="9" el="93" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="47" ordinal="1" offset="1" sl="94" sc="13" el="94" ec="49" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="48" ordinal="2" offset="22" sl="95" sc="9" el="95" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="46" ordinal="0" offset="0" sl="93" sc="9" el="93" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ApiDescriptionExtensions</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.HelpPageConfig</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.HelpPageAreaRegistration</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.HelpPageConfigurationExtensions</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.HelpPageConfigurationExtensions/&lt;&gt;c</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.HelpPageConfigurationExtensions/&lt;&gt;c__DisplayClass14_0</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.HelpPageConfigurationExtensions/&lt;&gt;c__DisplayClass15_0</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.HelpPageConfigurationExtensions/&lt;&gt;c__DisplayClass16_0</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.HelpPageSampleGenerator</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.HelpPageSampleGenerator/&lt;&gt;c</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.HelpPageSampleGenerator/&lt;GetAllActionSamples&gt;d__30</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.HelpPageSampleKey</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ImageSample</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.InvalidSample</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ObjectGenerator</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/&lt;&gt;c</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.TextSample</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.XmlDocumentationProvider</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.XmlDocumentationProvider/&lt;&gt;c</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.Models.HelpPageApiModel</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ModelDescriptions.CollectionModelDescription</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ModelDescriptions.DictionaryModelDescription</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ModelDescriptions.EnumValueDescription</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ModelDescriptions.ModelDescription</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/&lt;&gt;c__DisplayClass3_0</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/&lt;&gt;c</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ModelDescriptions.ModelNameAttribute</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ModelDescriptions.ModelNameHelper</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ModelDescriptions.ModelNameHelper/&lt;&gt;c</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ModelDescriptions.ParameterAnnotation</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ModelDescriptions.ParameterDescription</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.ModelDescriptions.SimpleTypeModelDescription</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.Controllers.HelpController</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>TaskManager.API.Areas.HelpPage.Controllers.HelpController/&lt;&gt;o__7</FullName>
+          <Methods />
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="F9-9B-B5-71-3A-BE-A4-D1-7B-42-24-6F-13-97-0A-EB-C4-29-42-FE">
+      <ModulePath>C:\FSD\WORKING\TaskManager\TaskManager.Tests\bin\Debug\System.Web.Http.dll</ModulePath>
+      <ModuleTime>2018-05-10T17:09:16Z</ModuleTime>
+      <ModuleName>System.Web.Http</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C5-91-F7-24-74-EE-6C-65-D3-3F-C4-30-65-87-45-6D-38-2C-9C-AC">
+      <ModulePath>C:\FSD\WORKING\TaskManager\TaskManager.Tests\bin\Debug\Moq.dll</ModulePath>
+      <ModuleTime>2018-09-08T04:51:00Z</ModuleTime>
+      <ModuleName>Moq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="75-7C-9D-77-5B-C3-C2-F7-B9-5F-C1-B8-6A-BC-3A-67-72-FF-41-BB">
+      <ModulePath>C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2016-07-14T09:13:42Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="9C-75-55-9F-AD-D5-06-26-64-CB-04-EC-20-DB-A3-7F-FE-FD-2E-4E">
+      <ModulePath>C:\FSD\WORKING\TaskManager\TaskManager.Tests\bin\Debug\System.Threading.Tasks.Extensions.dll</ModulePath>
+      <ModuleTime>2016-11-04T23:27:24Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1E-0D-96-46-78-43-40-4F-87-3F-C0-E0-FA-AA-DE-D1-00-F0-24-7D">
+      <ModulePath>C:\windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2016-07-14T09:13:42Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="43-70-BE-22-94-B1-35-92-9B-E8-03-EE-31-AD-1D-34-7D-DF-6B-11">
+      <ModulePath>C:\FSD\WORKING\TaskManager\TaskManager.Tests\bin\Debug\System.ValueTuple.dll</ModulePath>
+      <ModuleTime>2017-07-19T04:31:32Z</ModuleTime>
+      <ModuleName>System.ValueTuple</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="04-E9-C9-8D-81-2A-18-0D-95-44-41-F4-12-25-FF-D6-EB-6E-D6-0A">
+      <ModulePath>C:\FSD\WORKING\TaskManager\TaskManager.Tests\bin\Debug\Castle.Core.dll</ModulePath>
+      <ModuleTime>2018-06-20T09:37:38Z</ModuleTime>
+      <ModuleName>Castle.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>DynamicProxyGenAssembly2</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FE-DF-E6-E6-41-42-DD-1D-61-C2-9F-00-65-E5-92-D8-F7-DD-08-C6">
+      <ModulePath>C:\FSD\WORKING\TaskManager\TaskManager.Tests\bin\Debug\TaskManager.Entities.dll</ModulePath>
+      <ModuleTime>2018-10-15T11:31:14.6107221Z</ModuleTime>
+      <ModuleName>TaskManager.Entities</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="06-7E-7D-13-CE-17-76-DD-E9-B8-D9-A3-17-E6-86-B0-E6-24-1C-8A">
+      <ModulePath>C:\FSD\WORKING\TaskManager\TaskManager.Tests\bin\Debug\TaskManager.DataLayer.dll</ModulePath>
+      <ModuleTime>2018-10-17T07:14:21.0300738Z</ModuleTime>
+      <ModuleName>TaskManager.DataLayer</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>
