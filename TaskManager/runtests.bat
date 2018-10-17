@@ -1,1 +1,1 @@
-"C:\Program Files (x86)\NUnit 2.6.1\bin\nunit-console.exe" "TaskManager.Tests\bin\Debug\TaskManager.Tests.dll" /noshadow
+"C:\Program Files (x86)\NUnit 2.6.1\bin\nunit-console.exe" "TaskManager\TaskManager.Tests\bin\Debug\TaskManager.Tests.dll" /noshadow

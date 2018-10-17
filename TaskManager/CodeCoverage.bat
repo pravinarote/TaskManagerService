@@ -1,2 +1,2 @@
-"packages\OpenCover.4.6.519\tools\OpenCover.Console.exe" -target:runtests.bat -register:user -filter:"+[TaskManager.API]TaskManager.API.Controllers.TaskManagerController*  +[TaskManager.BusinessLayer]TaskManager.BusinessLayer.Busin* -[TaskManager.Tests]*"  
-"packages\ReportGenerator.3.1.2\tools\ReportGenerator.exe" -reports:"results.xml" -targetdir:"NunitReports" -reporttypes:Html
+"TaskManager\packages\OpenCover.4.6.519\tools\OpenCover.Console.exe" -target:runtests.bat -register:user -filter:"+[TaskManager.API]TaskManager.API.Controllers.TaskManagerController*  +[TaskManager.BusinessLayer]TaskManager.BusinessLayer.Busin* -[TaskManager.Tests]*"  
+"TaskManager\packages\ReportGenerator.3.1.2\tools\ReportGenerator.exe" -reports:"results.xml" -targetdir:"NunitReports" -reporttypes:Html
