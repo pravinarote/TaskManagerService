@@ -51,10 +51,10 @@ namespace TaskManager.PerformanceTests
             _counter.Increment();
         }
 
-        [CounterThroughputAssertion("TaskServiceCounter", MustBe.GreaterThan, 100000.0d)]
+        [CounterThroughputAssertion("TaskServiceCounter", MustBe.GreaterThan, 50000.0d)]
         [PerfBenchmark(NumberOfIterations = 3, RunMode = RunMode.Throughput, TestMode = TestMode.Test, SkipWarmups = true)]
         [ElapsedTimeAssertion(MaxTimeMilliseconds = 5000)]
-        [CounterTotalAssertion("TaskServiceCounter", MustBe.GreaterThan, 100000.0d)]
+        [CounterTotalAssertion("TaskServiceCounter", MustBe.GreaterThan, 50000.0d)]
         [CounterMeasurement("TaskServiceCounter")]
         [GcMeasurement(GcMetric.TotalCollections, GcGeneration.AllGc)]
         public void Benchmark_Performance_CreateNewTask()
